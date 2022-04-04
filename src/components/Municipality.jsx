@@ -30,11 +30,14 @@ const Municipality = () => {
             </button>
           </div>
           <div className="hero__img">
-            <img src="town-hall.png" alt="" className="hero-img" width="" />
+            <img src="town-hall.png" alt="" className="hero-img" />
           </div>
         </div>
       </div>
       {/* End Background Wrapper */}
+
+      {/*  */}
+
       <Footer />
     </div>
   );

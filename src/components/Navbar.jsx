@@ -5,7 +5,7 @@ import {
   faHomeUser,
   faTrophy,
   faCity,
-  faShield,
+  faShieldHalved,
   faDiagramProject,
   faCircleDollarToSlot,
   faBars,
@@ -52,7 +52,7 @@ const Navbar = () => {
             </li>
             <li>
               <Link className="nav-link" to="/city-security">
-                <FontAwesomeIcon icon={faShield} />
+                <FontAwesomeIcon icon={faShieldHalved} />
                 &nbsp;City Security
               </Link>
             </li>
