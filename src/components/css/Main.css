@@ -423,6 +423,16 @@ footer {
   line-height: 1.5em;
 }
 
+.municipality-card-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  margin: 0 auto;
+  margin-bottom: 5rem !important;
+}
+
 .goals {
   gap: 5rem;
   padding-bottom: 5rem;
@@ -483,6 +493,26 @@ footer {
   line-height: 1.6em;
 }
 
+.row {
+  gap: 5rem;
+  padding-bottom: 5rem;
+}
+.row__card {
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  background: white;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 4px solid black;
+}
+.row__card:nth-child(1) {
+  border-top: 4px solid black;
+}
+
 /* Responsive section */
 @media (min-width: 1100px) {
   nav {
@@ -538,7 +568,8 @@ footer {
 
   .row {
     grid-template-columns: repeat(3, 1fr);
-    gap: 7rem;
+    gap: 1.5rem;
+    padding: 0 2rem 0 2rem;
   }
 
   .col h1 {
@@ -702,6 +733,56 @@ footer {
     background: linear-gradient(235deg, #30092a, #fff, #a1c4fd);
   }
   .goals__card:nth-child(4)::before, .goals__card:nth-child(4)::after {
+    background: linear-gradient(235deg, #a1c4fd, #fff, #30092a);
+  }
+
+  .row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 3rem 0;
+    padding-bottom: 5rem;
+  }
+  .row__card {
+    border: none;
+    width: 88%;
+  }
+  .row__card:nth-child(1) {
+    border: none;
+  }
+  .row__card p {
+    font-size: 18px;
+  }
+  .row__card::before {
+    content: "";
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    bottom: -2px;
+    left: -2px;
+    background: var(--black);
+    z-index: -1;
+  }
+  .row__card::after {
+    content: "";
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    bottom: -2px;
+    left: -2px;
+    background: var(--black);
+    z-index: -2;
+    filter: blur(15px);
+  }
+  .row__card:nth-child(1)::before, .row__card:nth-child(1)::after {
+    background: linear-gradient(235deg, #30092a, #fff, #cb3c61);
+  }
+  .row__card:nth-child(2)::before, .row__card:nth-child(2)::after {
+    background: linear-gradient(235deg, #cb3c61, #fff, #30092a);
+  }
+  .row__card:nth-child(3)::before, .row__card:nth-child(3)::after {
+    background: linear-gradient(235deg, #30092a, #fff, #a1c4fd);
+  }
+  .row__card:nth-child(4)::before, .row__card:nth-child(4)::after {
     background: linear-gradient(235deg, #a1c4fd, #fff, #30092a);
   }
 }

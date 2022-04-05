@@ -488,6 +488,15 @@ footer {
   }
 }
 
+.municipality-card-3{
+
+  @include flex(column, center, center);
+  width: 30%;
+  margin: 0 auto;
+  margin-bottom: 5rem !important;
+
+}
+
 .goals {
   // display: grid;
   // grid-template-columns: repeat(2, 1fr);
@@ -601,6 +610,74 @@ footer {
   }
 }
 
+.row{
+
+  // display: grid;
+  // grid-template-columns: repeat(3, 1fr);
+  gap: 5rem;
+  // padding: 3rem 0;
+  padding-bottom: 5rem;
+
+  &__card{
+
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    background: white;
+    padding: 1.5rem;
+    @include flex(column, center, center);
+    border-bottom: 4px solid black;
+
+    &:nth-child(1) {
+      border-top: 4px solid black;
+    }
+
+    // &::before {
+    //   content: "";
+    //   position: absolute;
+    //   top: -2px;
+    //   right: -2px;
+    //   bottom: -2px;
+    //   left: -2px;
+    //   background: var(--black);
+    //   z-index: -1;
+    // }
+
+    // &::after {
+    //   content: "";
+    //   position: absolute;
+    //   top: -2px;
+    //   right: -2px;
+    //   bottom: -2px;
+    //   left: -2px;
+    //   background: var(--black);
+    //   z-index: -2;
+    //   filter: blur(15px);
+    // }
+
+    // &:nth-child(1)::before,
+    // &:nth-child(1)::after {
+    //   background: linear-gradient(235deg, #30092a, #fff, #cb3c61);
+    // }
+
+    // &:nth-child(2)::before,
+    // &:nth-child(2)::after {
+    //   background: linear-gradient(235deg, #cb3c61, #fff, #30092a);
+    // }
+
+    // &:nth-child(3)::before,
+    // &:nth-child(3)::after {
+    //   background: linear-gradient(235deg, #30092a, #fff, #a1c4fd);
+    // }
+
+    // &:nth-child(4)::before,
+    // &:nth-child(4)::after {
+    //   background: linear-gradient(235deg, #a1c4fd, #fff, #30092a);
+    // }
+  }
+
+}
+
 /* Responsive section */
 
 @media (min-width: 1100px) {
@@ -658,7 +735,8 @@ footer {
 
   .row {
     grid-template-columns: repeat(3, 1fr);
-    gap: 7rem;
+    gap: 1.5rem;
+    padding: 0 2rem 0 2rem;
   }
 
   .col {
@@ -814,6 +892,71 @@ footer {
 
     &__card {
       border: none;
+
+      &:nth-child(1) {
+        border: none;
+      }
+
+      p {
+        font-size: 18px;
+      }
+
+      &::before {
+        content: "";
+        position: absolute;
+        top: -2px;
+        right: -2px;
+        bottom: -2px;
+        left: -2px;
+        background: var(--black);
+        z-index: -1;
+      }
+
+      &::after {
+        content: "";
+        position: absolute;
+        top: -2px;
+        right: -2px;
+        bottom: -2px;
+        left: -2px;
+        background: var(--black);
+        z-index: -2;
+        filter: blur(15px);
+      }
+
+      &:nth-child(1)::before,
+      &:nth-child(1)::after {
+        background: linear-gradient(235deg, #30092a, #fff, #cb3c61);
+      }
+
+      &:nth-child(2)::before,
+      &:nth-child(2)::after {
+        background: linear-gradient(235deg, #cb3c61, #fff, #30092a);
+      }
+
+      &:nth-child(3)::before,
+      &:nth-child(3)::after {
+        background: linear-gradient(235deg, #30092a, #fff, #a1c4fd);
+      }
+
+      &:nth-child(4)::before,
+      &:nth-child(4)::after {
+        background: linear-gradient(235deg, #a1c4fd, #fff, #30092a);
+      }
+    }
+  }
+
+  .row{
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 3rem 0;
+    padding-bottom: 5rem;
+
+
+    &__card {
+      border: none;
+      width: 88%;
 
       &:nth-child(1) {
         border: none;
