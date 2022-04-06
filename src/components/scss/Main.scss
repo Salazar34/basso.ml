@@ -1,4 +1,4 @@
-@use "./Mixins.scss" as *;
+@use "./Mixins.scss"as *;
 
 @import "https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600&display=swap";
 
@@ -99,12 +99,10 @@ video {
 }
 
 .btn-grad {
-  background-image: linear-gradient(
-    to right,
-    #30092a 0%,
-    #cb3c61 51%,
-    #30092a 100%
-  );
+  background-image: linear-gradient(to right,
+      #30092a 0%,
+      #cb3c61 51%,
+      #30092a 100%);
 }
 
 .btn-grad {
@@ -121,7 +119,8 @@ video {
 
 .btn-grad:hover {
   cursor: pointer;
-  background-position: right center; /* change the direction of the change here */
+  background-position: right center;
+  /* change the direction of the change here */
   color: #fff;
   text-decoration: none;
 }
@@ -258,11 +257,9 @@ video {
 }
 
 .background-wrapper {
-  background-image: linear-gradient(
-    135deg,
-    rgb(48, 9, 42),
-    rgb(203, 60, 97) 75%
-  );
+  background-image: linear-gradient(135deg,
+      rgb(48, 9, 42),
+      rgb(203, 60, 97) 75%);
 }
 
 /* Footer section */
@@ -465,7 +462,7 @@ footer {
   }
 }
 
-.goals-banner {
+.banner {
   margin: 0 auto;
   padding: 5rem 0;
   background: var(--black);
@@ -488,13 +485,11 @@ footer {
   }
 }
 
-.municipality-card-3{
-
+.municipality-card-3 {
   @include flex(column, center, center);
   width: 30%;
   margin: 0 auto;
   margin-bottom: 5rem !important;
-
 }
 
 .goals {
@@ -610,15 +605,24 @@ footer {
   }
 }
 
-.row{
-
+.row {
   // display: grid;
   // grid-template-columns: repeat(3, 1fr);
   gap: 5rem;
-  // padding: 3rem 0;
   padding-bottom: 5rem;
 
-  &__card{
+  &__card {
+    p {
+      line-height: 1.6em;
+    }
+
+    img {
+
+      &:nth-child(2),
+      &:nth-child(3) {
+        padding: 3rem 0;
+      }
+    }
 
     margin: 0 auto;
     text-align: center;
@@ -674,6 +678,51 @@ footer {
     // &:nth-child(4)::after {
     //   background: linear-gradient(235deg, #a1c4fd, #fff, #30092a);
     // }
+  }
+
+}
+
+.cs-features {
+  margin: 0 auto;
+  margin-bottom: 4rem;
+  @include flex(column, center, center);
+
+  p {
+    font-size: 18px;
+    text-align: center;
+    width: 65ch;
+    line-height: 1.6em;
+  }
+
+  &__img {
+    padding: 3rem 0;
+  }
+}
+
+cs-banner {
+
+  display: block !important;
+  position: relative;
+
+  &__img-overlay {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+  }
+
+  & p {
+
+    position: absolute;
+
+    &:nth-child(1) {
+
+      top: 0;
+      left: 0;
+
+    }
+
   }
 
 }
@@ -750,6 +799,7 @@ footer {
   }
 
   .home-features-col {
+
     h1,
     i {
       color: transparent;
@@ -768,12 +818,9 @@ footer {
     border-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%) 1;
 
     &:hover {
-      border-image: linear-gradient(
-          135deg,
+      border-image: linear-gradient(135deg,
           rgb(48, 9, 42),
-          rgb(203, 60, 97) 75%
-        )
-        1;
+          rgb(203, 60, 97) 75%) 1;
     }
   }
 
@@ -868,8 +915,9 @@ footer {
     }
   }
 
-  .goals-banner {
+  .banner {
     @include flex(column, center, center);
+    position: relative;
 
     p {
       width: 55ch;
@@ -946,17 +994,24 @@ footer {
     }
   }
 
-  .row{
+  .row {
 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     padding: 3rem 0;
     padding-bottom: 5rem;
 
-
     &__card {
       border: none;
       width: 88%;
+
+      img {
+
+        &:nth-child(2),
+        &:nth-child(3) {
+          padding: 3rem 0;
+        }
+      }
 
       &:nth-child(1) {
         border: none;
@@ -964,6 +1019,7 @@ footer {
 
       p {
         font-size: 18px;
+        line-height: 1.6em;
       }
 
       &::before {
@@ -1010,4 +1066,33 @@ footer {
       }
     }
   }
+
+  cs-banner {
+
+    display: block !important;
+    position: relative;
+
+    &__img-overlay {
+
+      position: absolute;
+      top: 0;
+      left: 0;
+
+    }
+
+    & p {
+
+      position: absolute;
+
+      &:nth-child(1) {
+
+        top: 0;
+        left: 0;
+
+      }
+
+    }
+
+  }
+
 }

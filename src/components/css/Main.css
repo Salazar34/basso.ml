@@ -403,20 +403,20 @@ footer {
   padding-bottom: 4rem;
 }
 
-.goals-banner {
+.banner {
   margin: 0 auto;
   padding: 5rem 0;
   background: var(--black);
   color: var(--white);
 }
-.goals-banner__button {
+.banner__button {
   margin: 0 auto;
 }
-.goals-banner h1,
-.goals-banner p {
+.banner h1,
+.banner p {
   text-align: center;
 }
-.goals-banner p {
+.banner p {
   font-size: 1.15rem;
   padding: 0 1rem;
   margin: 1.5rem 0;
@@ -509,8 +509,49 @@ footer {
   align-items: center;
   border-bottom: 4px solid black;
 }
+.row__card p {
+  line-height: 1.6em;
+}
+.row__card img:nth-child(2), .row__card img:nth-child(3) {
+  padding: 3rem 0;
+}
 .row__card:nth-child(1) {
   border-top: 4px solid black;
+}
+
+.cs-features {
+  margin: 0 auto;
+  margin-bottom: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cs-features p {
+  font-size: 18px;
+  text-align: center;
+  width: 65ch;
+  line-height: 1.6em;
+}
+.cs-features__img {
+  padding: 3rem 0;
+}
+
+cs-banner {
+  display: block !important;
+  position: relative;
+}
+cs-banner__img-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+cs-banner p {
+  position: absolute;
+}
+cs-banner p:nth-child(1) {
+  top: 0;
+  left: 0;
 }
 
 /* Responsive section */
@@ -672,13 +713,14 @@ footer {
     display: block;
   }
 
-  .goals-banner {
+  .banner {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
   }
-  .goals-banner p {
+  .banner p {
     width: 55ch;
     margin-bottom: -1rem;
   }
@@ -746,11 +788,15 @@ footer {
     border: none;
     width: 88%;
   }
+  .row__card img:nth-child(2), .row__card img:nth-child(3) {
+    padding: 3rem 0;
+  }
   .row__card:nth-child(1) {
     border: none;
   }
   .row__card p {
     font-size: 18px;
+    line-height: 1.6em;
   }
   .row__card::before {
     content: "";
@@ -784,6 +830,23 @@ footer {
   }
   .row__card:nth-child(4)::before, .row__card:nth-child(4)::after {
     background: linear-gradient(235deg, #a1c4fd, #fff, #30092a);
+  }
+
+  cs-banner {
+    display: block !important;
+    position: relative;
+  }
+  cs-banner__img-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  cs-banner p {
+    position: absolute;
+  }
+  cs-banner p:nth-child(1) {
+    top: 0;
+    left: 0;
   }
 }
 

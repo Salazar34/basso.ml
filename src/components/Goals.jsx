@@ -89,8 +89,8 @@ const Goals = () => {
       {/* End Goals Section */}
 
       {/* Banner Section */}
-      <div className="goals-banner">
-        <h1 className="goals-banner-heading">Have some nice ideas?</h1>
+      <div className="banner">
+        <h1 className="banner-heading">Have some nice ideas?</h1>
         <p>
           We're here to help peoples saving the world, to create a better future
           for everyone. Our project is always open to suggestions, so if you
