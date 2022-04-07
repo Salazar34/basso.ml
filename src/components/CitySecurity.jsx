@@ -48,18 +48,21 @@ const CitySecurity = () => {
                 </div>
             </div>
 
-            <div className="banner cs-banner">
+            <div className="cs-banner">
                 <h2>More Specifics from Eagle 360</h2>
                 <img src="road.png" alt="road" className="cs-banner__img" />
+
                 <div className="cs-banner__img-overlay">
-                    <p className="cs-banner__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro maiores, explicabo aliquid ipsum expedita, inventore aspernatur veniam ex labore facilis quae vitae aut commodi itaque earum vero quasi sequi fuga?
+                    <p className="cs-banner__right">Eagle 360 is an idea borned from the necessity of surveillance of the cities more "digital".
                     </p>
-                    <p className="cs-banner__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro maiores, explicabo aliquid ipsum expedita, inventore aspernatur veniam ex labore facilis quae vitae aut commodi itaque earum vero quasi sequi fuga?
+                    <p className="cs-banner__left"> By implementing a system of hidden cameras all around the city police officers can watch over for criminality and other kind of stuff.
                     </p>
-                    <p className="cs-banner__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro maiores, explicabo aliquid ipsum expedita, inventore aspernatur veniam ex labore facilis quae vitae aut commodi itaque earum vero quasi sequi fuga?
+                    <p className="cs-banner__right">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro maiores, explicabo aliquid ipsum expedita, inventore aspernatur veniam ex labore facilis quae vitae aut commodi itaque earum vero quasi sequi fuga?
                     </p>
-                    <p className="cs-banner__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro maiores, explicabo aliquid ipsum expedita, inventore aspernatur veniam ex labore facilis quae vitae aut commodi itaque earum vero quasi sequi fuga?
-                    </p>
+                    <div className="cs-banner__down">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro maiores, explicabo aliquid ipsum expedita, inventore aspernatur veniam ex labore facilis quae vitae aut commodi itaque earum vero quasi sequi fuga?
+                        </p>
+                    </div>
                 </div>
             </div>
 

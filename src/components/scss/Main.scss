@@ -1067,31 +1067,71 @@ cs-banner {
     }
   }
 
-  cs-banner {
+  .cs-banner {
 
-    display: block !important;
+    @include flex(column, center, center);
     position: relative;
+    margin: 0 auto;
+    padding: 5rem 0;
+    background: var(--black);
+    color: var(--white);
 
-    &__img-overlay {
+    p {
+      margin-bottom: -1rem;
+    }
 
+    &__img {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 33%;
       position: absolute;
-      top: 0;
-      left: 0;
+      align-items: center;
 
     }
 
-    & p {
-
-      position: absolute;
-
-      &:nth-child(1) {
-
-        top: 0;
-        left: 0;
-
-      }
+    &__left {
+      display: flex;
+      flex-direction: column;
+      justify-content: left;
+      width: 33%;
+      align-items: left;
+      padding: 3rem 0 3rem;
 
     }
+
+    &__right {
+      display: flex;
+      flex-direction: column;
+      justify-content: right;
+      width: 33%;
+      align-items: right;
+      padding: 6rem 0 3rem;
+
+    }
+
+    &__down {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      width: 33%;
+      text-align: center;
+
+    }
+
+
+    //& p {
+
+    // position: absolute;
+
+    // &:nth-child(1) {
+
+    //  top: 0;
+    //  left: 0;
+
+    // }
+
+    //}
 
   }
 
