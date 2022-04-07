@@ -537,21 +537,25 @@ footer {
   padding: 3rem 0;
 }
 
-cs-banner {
-  display: block !important;
+.cs-banner {
   position: relative;
 }
-cs-banner__img-overlay {
+.cs-banner__img-overlay {
   position: absolute;
-  top: 0;
-  left: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  place-self: end;
+  align-self: center;
+  place-items: center;
+  gap: 10rem 39em;
+  padding: 1.5rem;
 }
-cs-banner p {
-  position: absolute;
+.cs-banner p {
+  width: 45ch;
+  line-height: 1.6em;
 }
-cs-banner p:nth-child(1) {
-  top: 0;
-  left: 0;
+.cs-banner p:nth-child(2) {
+  align-self: center;
 }
 
 /* Responsive section */
@@ -609,7 +613,6 @@ cs-banner p:nth-child(1) {
 
   .row {
     grid-template-columns: repeat(3, 1fr);
-    gap: 1.5rem;
     padding: 0 2rem 0 2rem;
   }
 
@@ -842,40 +845,6 @@ cs-banner p:nth-child(1) {
     padding: 5rem 0;
     background: var(--black);
     color: var(--white);
-  }
-  .cs-banner p {
-    margin-bottom: -1rem;
-  }
-  .cs-banner__img {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 33%;
-    position: absolute;
-    align-items: center;
-  }
-  .cs-banner__left {
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    width: 33%;
-    align-items: left;
-    padding: 3rem 0 3rem;
-  }
-  .cs-banner__right {
-    display: flex;
-    flex-direction: column;
-    justify-content: right;
-    width: 33%;
-    align-items: right;
-    padding: 6rem 0 3rem;
-  }
-  .cs-banner__down {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 33%;
-    text-align: center;
   }
 }
 
