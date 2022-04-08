@@ -717,10 +717,25 @@ footer {
     width: 45ch;
     line-height: 1.6em;
 
-    &:nth-child(2){
+    &:nth-child(2) {
       align-self: center;
     }
   }
+}
+
+.lbl {
+
+  display: block;
+  font: 1.5rem 'Fira Sans', sans-serif;
+
+}
+
+.in-lbl {
+
+  margin: .4rem 0;
+  width: 50%;
+  align-self: center;
+
 }
 
 /* Responsive section */
@@ -1000,6 +1015,7 @@ footer {
       width: 88%;
 
       img {
+
         &:nth-child(2),
         &:nth-child(3) {
           padding: 3rem 0;
@@ -1068,4 +1084,17 @@ footer {
     background: var(--black);
     color: var(--white);
   }
+}
+
+.lbl {
+
+  display: block;
+  font: 1.5rem 'Fira Sans', sans-serif;
+
+}
+
+.in-lbl {
+
+  margin: .4rem 0;
+
 }

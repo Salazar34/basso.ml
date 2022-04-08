@@ -558,6 +558,17 @@ footer {
   align-self: center;
 }
 
+.lbl {
+  display: block;
+  font: 1.5rem "Fira Sans", sans-serif;
+}
+
+.in-lbl {
+  margin: 0.4rem 0;
+  width: 50%;
+  align-self: center;
+}
+
 /* Responsive section */
 @media (min-width: 1100px) {
   nav {
@@ -846,6 +857,14 @@ footer {
     background: var(--black);
     color: var(--white);
   }
+}
+.lbl {
+  display: block;
+  font: 1.5rem "Fira Sans", sans-serif;
+}
+
+.in-lbl {
+  margin: 0.4rem 0;
 }
 
 /*# sourceMappingURL=Main.css.map */
