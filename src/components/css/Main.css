@@ -559,14 +559,24 @@ footer {
 }
 
 .lbl {
-  display: block;
   font: 1.5rem "Fira Sans", sans-serif;
+  padding-right: 10px;
 }
 
 .in-lbl {
-  margin: 0.4rem 0;
+  margin-bottom: 10px;
   width: 50%;
   align-self: center;
+}
+
+.form-form {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  align-items: center;
+}
+
+.div-form {
+  display: table-row;
 }
 
 /* Responsive section */
@@ -859,12 +869,28 @@ footer {
   }
 }
 .lbl {
-  display: block;
   font: 1.5rem "Fira Sans", sans-serif;
 }
 
 .in-lbl {
-  margin: 0.4rem 0;
+  margin-bottom: 10px;
+  width: 50%;
+}
+
+.form-form {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.div-form {
+  display: table-row;
+}
+
+.sal {
+  border-radius: 100px;
 }
 
 /*# sourceMappingURL=Main.css.map */
