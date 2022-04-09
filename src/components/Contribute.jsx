@@ -33,7 +33,7 @@ const Contribute = () => {
                         className="row__card"
                         title="Bujenita Andrei Gabriel"
                         img="gamepad.png"
-                        text="Our first tought when we decided to make this city, was how to reduce pollution to keep our world safe. One of the most sources of pollution is the smog created by cars and others veichle, so the solution we tought about is shared hydrogen cars. Hydrogen cars alone surely will reduce pollution, but using a system of car-sharing the pollution will be minimum."
+                        text="Andrei, called 'Jhonny', is a rumenian guy. One of our sources of ideas can be defined as the 'glue' of the group, while giving moral support to everyone mantaining a good mood. The content finder, that keeps us updated on what is important to know."
                     />
                 </div>
                 <div className="row__card">
@@ -41,7 +41,7 @@ const Contribute = () => {
                         className="row__card"
                         title="Angotti Niccolò"
                         img="galaxy.png"
-                        text="Be renewable is our first goal, so having multiple sources of renewable energy is the only thing that our city is going to need to be auto-sustainable. Solar-energy, for the houses of the citizens. Hydroelectric and wind power for industries and thermic power for the city itself. Marco Schiavi best engineer we say, so he will be our hero.  "
+                        text="Angotti is the manager of 3D-making using unreal engine 5, executioner CEO of the projects."
                     />
                 </div>
                 <div className="row__card">
@@ -49,7 +49,7 @@ const Contribute = () => {
                         className="row__card"
                         title="Offredi Nicola"
                         img="oferrari.png"
-                        text="League of legend player, he is one of our 3D-designer colleagues, a high-blonde-man with codino."
+                        text="One of our 3D-designer colleagues, a high-blonde-man with a ponytail, is the most creative person of the group. "
                     />
                 </div>
                 <div className="row__card">
@@ -57,7 +57,7 @@ const Contribute = () => {
                         className="row__card"
                         title="Sala Matteo"
                         img="sallogo.jpeg"
-                        text="Air is the most important thing keeping us alive, so we'll have great stretches of plants where citizens can walk to be in contact with nature. In the center of our city there will be a great common garden where people can grow their own plants. Our green zones are so important for us, that we will have a law against those who harm the enviroment.  "
+                        text="The leader of this gruop, is a tennis player with an infinite passion for coding, is the one who teach us all we have to know about coding."
                     />
                 </div>
                 <div className="row__card">
@@ -65,7 +65,7 @@ const Contribute = () => {
                         className="row__card"
                         title="Snati Nicola"
                         img="fire.png"
-                        text="Air is the most important thing keeping us alive, so we'll have great stretches of plants where citizens can walk to be in contact with nature. In the center of our city there will be a great common garden where people can grow their own plants. Our green zones are so important for us, that we will have a law against those who harm the enviroment.  "
+                        text="God"
                     />
                 </div>
             </div>
