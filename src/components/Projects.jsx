@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 import Footer from "./Footer";
 import Navbar from "./Navbar";
@@ -15,7 +14,8 @@ const Projects = () => {
             <h1>You don't need to overthink. Just be smart</h1>
             <p>
               As well as the city, we have other project like the new way to
-              move around the city, by sharing hydrogen cars.
+              move around the city, by sharing hydrogen cars. More sustainable
+              veichles means less pollution and a cleaner city for everyone.
             </p>
           </div>
           <div className="hero__img">
@@ -55,12 +55,9 @@ const Projects = () => {
           />
         </div>
       </div>
-      <label for="name" className="lbl in-lbl">Name: </label>
-
-      <input type="text" id="name" name="name" required
-        minlength="4" maxlength="8" size="100" className="in-lbl"></input>
       <Footer />
     </div>
   );
 };
+
 export default Projects;

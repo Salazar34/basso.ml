@@ -4,6 +4,10 @@ WORKDIR /app
 
 COPY . /app/
 
-RUN npm ci
+RUN npm install && npm run build
 
-CMD [ "npm", "start" ]
+RUN npm i -g server
+
+EXPOSE 80
+
+CMD ["serve", "-s", "build"]

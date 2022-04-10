@@ -540,6 +540,10 @@ footer {
 .cs-banner {
   position: relative;
 }
+.cs-banner__img {
+  transform: rotateX(180deg);
+  transform: rotateY(180deg);
+}
 .cs-banner__img-overlay {
   position: absolute;
   display: grid;

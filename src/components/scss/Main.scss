@@ -702,6 +702,11 @@ footer {
 .cs-banner {
   position: relative;
 
+  &__img{
+    transform: rotateX(180deg);
+    transform: rotateY(180deg);
+  }
+
   &__img-overlay {
     position: absolute;
     display: grid;
