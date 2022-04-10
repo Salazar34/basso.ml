@@ -55,6 +55,50 @@ const Projects = () => {
           />
         </div>
       </div>
+      <form action="" method="get" class="form-form">
+        <div class="div-form">
+          <label for="name" className="lbl in-lbl">
+            Name:{" "}
+          </label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="William"
+            required
+            className="in-lbl"
+          />
+        </div>
+        <div class="div-form">
+          <label for="surname" className="lbl in-lbl">
+            Surname:{" "}
+          </label>
+          <input
+            type="text"
+            surname="surname"
+            id="surname"
+            placeholder="Afton"
+            required
+            className="in-lbl"
+          />
+        </div>
+        <div class="div-form">
+          <label for="email" className="lbl in-lbl">
+            Email:{" "}
+          </label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="purpleguy@hotmail.com"
+            required
+            className="in-lbl"
+          />
+        </div>
+        <div class="div-form">
+          <input type="submit" value="Submit!" className="in-lbl" />
+        </div>
+      </form>
       <Footer />
     </div>
   );
