@@ -540,6 +540,10 @@ footer {
 .cs-banner {
   position: relative;
 }
+.cs-banner__img {
+  transform: rotateX(180deg);
+  transform: rotateY(180deg);
+}
 .cs-banner__img-overlay {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -565,6 +569,10 @@ footer {
 
 .large {
   width: 33%;
+}
+
+.sal row__card:nth-child(4) img {
+  width: 5000px !important;
 }
 
 /* Responsive section */
@@ -868,8 +876,8 @@ footer {
   width: 33%;
 }
 
-.sal {
-  border-radius: 100px;
+.sal row__card:nth-child(4) img {
+  width: 5000px !important;
 }
 
 /*# sourceMappingURL=Main.css.map */

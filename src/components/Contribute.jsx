@@ -27,7 +27,7 @@ const Contribute = () => {
                     </div>
                 </div>
             </div>
-            <div className="row">
+            <div className="row sal">
                 <div className="row__card">
                     <Card
                         className="row__card"

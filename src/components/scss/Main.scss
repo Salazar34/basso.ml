@@ -702,6 +702,11 @@ footer {
 .cs-banner {
   position: relative;
 
+  &__img {
+    transform: rotateX(180deg);
+    transform: rotateY(180deg);
+  }
+
   &__img-overlay {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -727,6 +732,14 @@ footer {
 
 .large {
   width: 33%;
+}
+
+.sal {
+  & row__card:nth-child(4) {
+    & img {
+      width: 5000px !important;
+    }
+  }
 }
 
 
@@ -1089,5 +1102,9 @@ footer {
 }
 
 .sal {
-  border-radius: 100px;
+  & row__card:nth-child(4) {
+    & img {
+      width: 5000px !important;
+    }
+  }
 }
