@@ -683,7 +683,7 @@ footer {
 }
 
 .cs-features {
-  margin: 0 auto;
+  margin: 4rem auto;
   margin-bottom: 4rem;
   @include flex(column, center, center);
 
@@ -740,6 +740,10 @@ footer {
       width: 5000px !important;
     }
   }
+}
+
+.cardlink {
+  color: blue;
 }
 
 
@@ -1087,8 +1091,10 @@ footer {
     position: relative;
     margin: 0 auto;
     padding: 5rem 0;
-    background: var(--black);
-    color: var(--white);
+    color: var(--black);
+    background-image: url("../../../public/map.jpg");
+    background-size: 1500px;
+    background-position-x: center;
   }
 }
 
@@ -1107,4 +1113,8 @@ footer {
       width: 5000px !important;
     }
   }
+}
+
+.cardlink {
+  color: blue;
 }

@@ -520,7 +520,7 @@ footer {
 }
 
 .cs-features {
-  margin: 0 auto;
+  margin: 4rem auto;
   margin-bottom: 4rem;
   display: flex;
   flex-direction: column;
@@ -573,6 +573,10 @@ footer {
 
 .sal row__card:nth-child(4) img {
   width: 5000px !important;
+}
+
+.cardlink {
+  color: blue;
 }
 
 /* Responsive section */
@@ -860,8 +864,10 @@ footer {
     position: relative;
     margin: 0 auto;
     padding: 5rem 0;
-    background: var(--black);
-    color: var(--white);
+    color: var(--black);
+    background-image: url("../../../public/map.jpg");
+    background-size: 1500px;
+    background-position-x: center;
   }
 }
 .form-form {
@@ -878,6 +884,10 @@ footer {
 
 .sal row__card:nth-child(4) img {
   width: 5000px !important;
+}
+
+.cardlink {
+  color: blue;
 }
 
 /*# sourceMappingURL=Main.css.map */

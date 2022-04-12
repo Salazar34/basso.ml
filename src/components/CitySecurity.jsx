@@ -57,13 +57,10 @@ const CitySecurity = () => {
       </div>
 
       <div className="cs-banner">
-        <h2>More Specifics from Eagle 360</h2>
-        <img src="road.png" alt="road" className="cs-banner__img" />
-
+        <h2>More about Eagle 360</h2>
         <div className="cs-banner__img-overlay">
           <p>
-            Eagle 360 is an idea borned from the necessity of surveillance of
-            the cities more "digital".
+            Eagle 360 it's an advanced security AI system that aims to protect every corner of the city. It is based on the collaboration between citizens and guards, allowing to watch all over the territory in a more effcient way.
           </p>
           <p>
             {" "}
@@ -72,18 +69,13 @@ const CitySecurity = () => {
             stuff.
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro
-            maiores, explicabo aliquid ipsum expedita, inventore aspernatur
-            veniam ex labore facilis quae vitae aut commodi itaque earum vero
-            quasi sequi fuga?
+            The application will also provide an interactive map which will be updated periodically, so it can also work as an infocenter for foreigners.
           </p>
         </div>
         <div className="cs-banner__bottom">
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro
-            maiores, explicabo aliquid ipsum expedita, inventore aspernatur
-            veniam ex labore facilis quae vitae aut commodi itaque earum vero
-            quasi sequi fuga?
+            Do you like it? Download the application on the following link <br />
+            <a href="https://youtu.be/dQw4w9WgXcQ" className="cardlink">Eagle 360</a>
           </p>
         </div>
       </div>

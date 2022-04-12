@@ -58,6 +58,8 @@ const Contribute = () => {
                         title="Sala Matteo"
                         img="sallogo.jpeg"
                         text="The leader of this gruop, is a tennis player with an infinite passion for coding, is the one who teach us all we have to know about coding."
+                        link="https://ko-fi.com/salcode"
+                        linkText="Ko-Fi"
                     />
                 </div>
                 <div className="row__card">
@@ -65,7 +67,9 @@ const Contribute = () => {
                         className="row__card"
                         title="Snati Nicola"
                         img="fire.png"
-                        text="God"
+                        text='God'
+                        link="https://paypal.me/jjbill"
+                        linkText="Paypal"
                     />
                 </div>
             </div>
