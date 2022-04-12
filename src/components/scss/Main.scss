@@ -686,43 +686,59 @@ footer {
   margin: 4rem auto;
   margin-bottom: 4rem;
   @include flex(column, center, center);
+  text-align: center;
 
   p {
     font-size: 18px;
     text-align: center;
-    width: 65ch;
+    padding: 0 2rem;
     line-height: 1.6em;
   }
 
   &__img {
+    width: 300px;
     padding: 3rem 0;
   }
 }
 
 .cs-banner {
-  position: relative;
+  text-align: center;
+  margin: 0 auto;
+  padding: 5rem 0;
+  color: var(--black);
+  background-image: url("../../../public/mountains.png");
+  background-size: 1900px;
+  background-position-x: center;
 
+  h2{
+    font-size: 2rem;
+  }
+
+  p{
+    margin: 2rem auto;
+    line-height: 1.6em;
+    padding: 0 1rem;
+  }
+
+  &__bottom{
+    margin-top: 2em;
+    font-size: 31px;
+    font-weight: bold;
+
+    &__btn{
+      margin: 1rem auto;
+      margin-top: 4rem;
+    }
+  }
+  
   &__img {
     transform: rotateX(180deg);
     transform: rotateY(180deg);
   }
+}
 
-  &__img-overlay {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    place-self: end;
-    align-self: center;
-    place-items: center;
-  }
-
-  p {
-    width: 45ch;
-    line-height: 1.6em;
-
-    &:nth-child(2) {
-      align-self: center;
-    }
-  }
+.cs__img{
+  margin: 3rem 0 0 0;
 }
 
 .form-form {
@@ -746,7 +762,21 @@ footer {
   color: blue;
 }
 
+.contact-form{
+  @include flex(column, center, center);
+  margin-bottom: 3rem;
 
+  label {
+    font-size: 21px;
+    margin: 1rem auto;
+  }
+
+  input{
+    padding: 1rem;
+    font-size: 18px;
+    width: 20%;
+  }
+}
 
 /* Responsive section */
 
@@ -1086,16 +1116,46 @@ footer {
     }
   }
 
+  .cs-features{
+    p{
+      width: 65ch;
+    }
+
+    img{
+      width: 500px;
+    }
+  }
+
   .cs-banner {
-    @include flex(column, center, center);
-    position: relative;
+    text-align: center;
     margin: 0 auto;
     padding: 5rem 0;
     color: var(--black);
-    background-image: url("../../../public/map.jpg");
-    background-size: 1500px;
+    background-image: url("../../../public/mountains.png");
+    background-size: 1900px;
     background-position-x: center;
+
+    h2{
+      font-size: 3rem;
+    }
+
+    p{
+      width: 55ch;
+      margin: 2rem auto;
+      font-size: 21px;
+    }
+
+    &__bottom{
+      margin-top: 2em;
+      font-size: 31px;
+      font-weight: bold;
+    }
   }
+}
+
+.cs-pre-header{
+  margin: 3rem auto;
+  text-align: center;
 }
 
 .form-form {

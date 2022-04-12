@@ -7,7 +7,9 @@ const Card = (props) => {
       <h2>{props.title}</h2>
       <img src={props.img} alt="" />
       <p>{props.text}</p>
-      <a href={props.link} className="cardlink">{props.linkText}</a>
+      <a href={props.link} className="cardlink">
+        {props.linkText}
+      </a>
     </>
   );
 };

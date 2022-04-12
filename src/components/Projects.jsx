@@ -3,6 +3,7 @@ import React from "react";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
 import Card from "./Card";
+import ContactForm from "../ContactForm";
 
 const Projects = () => {
   return (
@@ -29,6 +30,7 @@ const Projects = () => {
         </div>
       </div>
 
+      <h1 className="cs-pre-header">Future projects ideas and improvements</h1>
       <div className="row">
         <div className="row__card">
           <Card
@@ -55,15 +57,7 @@ const Projects = () => {
           />
         </div>
       </div>
-      <form method="POST" className="form-form">
-        <p>Name:</p>
-        <input type="text" name="name" id="" placeholder="Gigio" className="large" />
-        <p>Surname:</p>
-        <input type="text" name="surname" id="" placeholder="Rimbenno" className="large" />
-        <p>Email:</p>
-        <input type="email" name="email" id="" placeholder="rimbennogg@hotmail.com" className="large" /> <br />
-        <input type="submit" value="Submit" />
-      </form>
+      <ContactForm />
       <Footer />
     </div>
   );

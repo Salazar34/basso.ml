@@ -19,7 +19,7 @@ const CitySecurity = () => {
               supervising the city.
             </p>
           </div>
-          <div className="hero__img">
+          <div className="hero__img cs__img">
             <img
               src="city.png"
               width="250"
@@ -29,6 +29,7 @@ const CitySecurity = () => {
           </div>
         </div>
       </div>
+      <h1 className="cs-pre-header">The Security Policy we offer</h1>
       <div className="row">
         <div className="row__card">
           <Card
@@ -60,23 +61,25 @@ const CitySecurity = () => {
         <h2>More about Eagle 360</h2>
         <div className="cs-banner__img-overlay">
           <p>
-            Eagle 360 it's an advanced security AI system that aims to protect every corner of the city. It is based on the collaboration between citizens and guards, allowing to watch all over the territory in a more effcient way.
-          </p>
-          <p>
-            {" "}
+            Eagle 360 it's an advanced security AI system that aims to protect
+            every corner of the city. It is based on the collaboration between
+            citizens and guards, allowing to watch all over the territory in a
+            more effcient way. <br />
+            <br />
             By implementing a system of hidden cameras all around the city
             police officers can watch over for criminality and other kind of
-            stuff.
-          </p>
-          <p>
-            The application will also provide an interactive map which will be updated periodically, so it can also work as an infocenter for foreigners.
+            stuff. The application will also provide an interactive map which
+            will be updated periodically, so it can also work as an infocenter
+            for foreigners.
           </p>
         </div>
         <div className="cs-banner__bottom">
-          <p>
-            Do you like it? Download the application on the following link <br />
-            <a href="https://youtu.be/dQw4w9WgXcQ" className="cardlink">Eagle 360</a>
-          </p>
+          <h3>Do you like it? Give it a try!</h3>
+          <button className="btn btn-grad cs-banner__bottom__btn">
+            <Link className="btn-hero-link" to="/contribute">
+              Download the App now
+            </Link>
+          </button>
         </div>
       </div>
 
