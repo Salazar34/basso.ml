@@ -39,11 +39,11 @@ const Goals = () => {
       <div className="goals__hero">
         <h1 className="goals__hero__title">Our Project's goals</h1>
         <p className="goals__hero__introduction">
-          We aim to achieve a fully sustainable and modernised community,
+          We aim to achieve a fully sustainable and modernized community,
           capable of living with modern conveniences while respecting the
           environment and our planet. Our goals aim to the creation of a future
           that can fully reflect the expectations and demands of the Global
-          Goals and at the same the citizens needs.
+          Goals and at the same time the citizens' needs.
         </p>
         <h3 className="goals__hero__quote">
           <em>"Our cards for reaching a better future"</em>
@@ -58,7 +58,7 @@ const Goals = () => {
             className="goals__card"
             title="Sustainability"
             img="sustainability.png"
-            text="The aim of the project is to create a better World starting from the primary places where activities take place, cities. Create more sustainable cities contributes to create more healthy planet."
+            text="The aim of the project is to create a better World starting from the primary places where activities take place: cities. Creating more sustainable cities contributes to create a healthier planet."
           />
         </div>
         <div className="goals__card">
@@ -66,7 +66,7 @@ const Goals = () => {
             className="goals__card"
             title="Modernity"
             img="modernity.png"
-            text="The key to achive sustainability is modernity. Create modern infrastructures, automated systems and innovative services helps cities to create a more secure and flexible environment for citizens."
+            text="The key to achive sustainability is modernity. Creating modern infrastructures, automated systems and innovative services helps cities to create a more secure and flexible environment for citizens."
           />
         </div>
         <div className="goals__card">
@@ -74,7 +74,7 @@ const Goals = () => {
             className="goals__card"
             title="Sensibilization"
             img="sensibilization.png"
-            text="We want to help peoples understand the really importance of having a clean world, by creating cultural events and festival, in order to achive our goals in the best way with the collaboration of the community."
+            text="We want to help people understand the real importance of having a clean world, by creating cultural events and festivals, in order to achive our goals in the best way with the collaboration of the community."
           />
         </div>
         <div className="goals__card">
@@ -92,9 +92,9 @@ const Goals = () => {
       <div className="banner">
         <h1 className="banner-heading">Have some nice ideas?</h1>
         <p>
-          We're here to help peoples saving the world, to create a better future
+          We're here to help people saving the world, creating a better future
           for everyone. Our project is always open to suggestions, so if you
-          have some ince ideas, you can actively contribute to the project.
+          have some nice ideas, you can actively contribute to the project.
         </p>
         <button className="btn btn-grad project-mission__pollution_consequences__text__button goals-banner__button">
           <Link className="btn-hero-link" to="/contribute">

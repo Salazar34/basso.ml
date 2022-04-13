@@ -63,7 +63,7 @@ const Home = () => {
             <h1>Security</h1>
             <FontAwesomeIcon className="goals-icon" icon={faUserShield} />
             <p>
-              Security first. A safe city is also a less strict city with
+              Security first. A safe city is also a less strict city towards
               citizens.
             </p>
           </div>
@@ -87,23 +87,23 @@ const Home = () => {
               />
               <p>
                 In the last decades the percentage of pollution in all cities
-                and metropolis is constantly increasing, due to the continuous
+                and metropolis has constantly increased, due to the continuous
                 use of polluting vehicles and unsustainable energies. This big
                 problem, that has been undervalued for years, is now surfacing
                 with all the releated consequences, i.e.{" "}
               </p>
               <ol>
                 <li>
-                  Increased mortality related to cardivascular and respiratory
+                  Increasing mortality related to cardivascular and respiratory
                   diseases{" "}
                 </li>
                 <li>
-                  Rising global temperatures resulting in melting glaciers and
-                  increased natural disasters.
+                  The rising of global temperatures resulting in melting glaciers and
+                  increasing natural disasters.
                 </li>
                 <li>
-                  Continued extinction of animal species, caused by climate
-                  anomalies and/or continued predator migrations.
+                  Continuing extinction of animal species, caused by climate
+                  anomalies and/or continuing predator migrations.
                 </li>
                 <li>
                   Disruption of natural ecosystems and destruction of animal
@@ -128,10 +128,10 @@ const Home = () => {
                 alt=""
               />
               <p>
-                Cities, as primary places in the conduct of daily activities and
-                with the highest concentration of movement, is the cause of most
+                Cities, as primary places in leading daily activities and places
+                with the highest concentration of movement, are the cause of most
                 environmental pollution. The high concentration of polluting
-                substances in the city allows a simple diffusion in every part
+                substances in the city allows an easy diffusion in every part
                 of the atmosphere, thanks also to the intervention of the air
                 currents. This leads to the spread of these substances
                 throughout the world, causing serious problems that are

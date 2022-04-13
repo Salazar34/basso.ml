@@ -12,7 +12,7 @@ const CitySecurity = () => {
         <Navbar />
         <div className="hero">
           <div className="hero__text">
-            <h1>Making your world the safest place to live.</h1>
+            <h1>Making your world the safest place to live in.</h1>
             <p>
               The security of our city is founded on the common sense of the
               citizens, even though there will be a surveillance corp always
@@ -52,7 +52,7 @@ const CitySecurity = () => {
             className="row__card"
             title="Eagle 360"
             img="eagle.png"
-            text="Eagle 360 is an advanced city surveillance system that allows city authorities to supervise comfortably and safely every corner of the city. Citizens, by downloading an app, will be able to report any kind of infringement or crime and actively contributing to the project."
+            text="Eagle 360 is an advanced city surveillance system that allows city authorities to supervise comfortably and safely every corner of the city. Citizens, by downloading an app, will be able to report any kind of infringement or crime and actively contribute to the project."
           />
         </div>
       </div>
@@ -63,7 +63,7 @@ const CitySecurity = () => {
           <p>
             Eagle 360 it's an advanced security AI system that aims to protect
             every corner of the city. It is based on the collaboration between
-            citizens and guards, allowing to watch all over the territory in a
+            citizens and guards, allowing to keep an eye on the territory in a
             more effcient way. <br />
             <br />
             By implementing a system of hidden cameras all around the city
@@ -96,7 +96,7 @@ const CitySecurity = () => {
           As our primary priority we want to preserve the life of our citizens
           by creating a secure environment within our cities, in order to
           guarantee the best life for everyone. We belive that the most powerful
-          weapon we can use to fight criminality, violations and theft is engage
+          weapon we can use to fight criminality, violations and theft is engaging
           all the citizens in the city security program, with the aim of helping
           the CSB to supervise all over the city.
         </p>

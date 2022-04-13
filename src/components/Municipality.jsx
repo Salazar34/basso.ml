@@ -21,7 +21,7 @@ const Municipality = () => {
               Burocracy and public administration: two words, two big problems.
               Today’s municipal systems present serious problems that cause a
               general slowdown of the public system, generating discontent
-              within the population as well as continues delays and errors due
+              within the population as well as generating further delays and errors due
               to haste.
             </p>
             <button className="btn btn-hero">
@@ -52,7 +52,7 @@ const Municipality = () => {
             className="goals__card"
             title="Digitalization"
             img="virtual (1).png"
-            text="Burocracy is so annoying, so we tought about how to semplify it. The Answer is... DIGITALIZATION! We are thinking about a new way to manage public systems without burocracy and with sustainable methods. "
+            text="Burocracy is so annoying, so we tought about how to semplify it. The answer is... DIGITALIZATION! We are thinking about a new way to manage public systems without burocracy and with sustainable methods. "
           />
         </div>
       </div>
@@ -61,7 +61,7 @@ const Municipality = () => {
           className="goals__card"
           title="Improved Infrastructures"
           img="bridge (1).png"
-          text="To make our city better, our city is going to invest in infrastructures to let cityzens live their life much better. Submarine subway stations, high speed magnetic trains and 'smart' sidewalks. Better 'bridges' makes better people."
+          text="To make our city better, our city is going to invest in infrastructures to let citizens live their life much better. Submarine subway stations, high speed magnetic trains and 'smart' sidewalks. Better 'bridges' make better people."
         />
       </div>
       {/* End Municipality Cards */}

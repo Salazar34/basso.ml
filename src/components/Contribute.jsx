@@ -51,8 +51,12 @@ const Contribute = () => {
             title="Offredi Nicola"
             img="oferrari.png"
             text="One of our 3D-designer colleagues, a high-blonde-man with a ponytail, is the most creative person of the group. "
+            link="https://signup.euw.leagueoflegends.com/it/signup/redownload"
+            linkText="Gift me a Lol skin"
           />
         </div>
+      </div>
+      <div className="contribute-bottom">
         <div className="row__card">
           <Card
             className="row__card"

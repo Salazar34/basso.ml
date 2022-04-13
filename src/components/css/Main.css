@@ -601,6 +601,9 @@ footer {
   align-items: center;
   margin-bottom: 3rem;
 }
+.contact-form textarea {
+  margin-bottom: 2rem;
+}
 .contact-form label {
   font-size: 21px;
   margin: 1rem auto;
