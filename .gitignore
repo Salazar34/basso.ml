@@ -24,6 +24,3 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
-# assets
-/public/BASSO_PITCH_VIDEO.mp4
